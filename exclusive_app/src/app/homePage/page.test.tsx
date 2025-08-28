@@ -1,9 +1,10 @@
+import '@testing-library/jest-dom';
 import { render, screen } from '@testing-library/react';
-import BestSellingProducts from './BestSellingProducts';
-import BrowseByCategory from './BrowseByCategory';
-import ExploreProducts from './ExploreProducts';
-import FreshSales from './FreshSales';
-import NewArrivals from './NewArrivals';
+import BestSellingProducts from './components/BestSellingProducts';
+import BrowseByCategory from './components/BrowseByCategory';
+import ExploreProducts from './components/ExploreProducts';
+import FreshSales from './components/FreshSales';
+import NewArrivals from './components/NewArrival';
 
 describe('Home Page Sections', () => {
   beforeEach(() => {
